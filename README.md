@@ -21,7 +21,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Guilho no GitHub"/><br>
         <sub>
           <b>Iuri Silva</b>
         </sub>
