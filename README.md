@@ -9,7 +9,7 @@ O projeto ainda está Finalizado.
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-* Você tem uma máquina Windows, Linux ou Mac.
+* Você tem uma máquina Windows ou Linux.
 
 <table>
   <tr>
