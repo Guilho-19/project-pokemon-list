@@ -90,7 +90,8 @@ main .cartao_pokemon .tipo_grama,
 main .cartao_pokemon .tipo_veneno,
 main .cartao_pokemon .tipo_fogo,
 main .cartao_pokemon .tipo_agua,
-main .cartao_pokemon .tipo_inseto {
+main .cartao_pokemon .tipo_inseto,
+main .cartao_pokemon .tipo_voador {
     padding: 8px;
     border-radius: 10px;
 }
@@ -113,6 +114,10 @@ main .cartao_pokemon .tipo_inseto {
 
 .tipo_inseto {
     background-color: #a6b91a;
+}
+
+.tipo_voador {
+    background-color: #95c6f3;
 }
 
 main .desc {
