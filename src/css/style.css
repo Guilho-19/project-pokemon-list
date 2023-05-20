@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #333333;
+    background-image: url("../img/wpp.jpg");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .logo,
+header .img_button {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+header .logo,
+header #button_themeAlt {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .logo:hover,
+header .img_button:hover,
+main .cartao_pokemon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main {
+    padding: 25px;
+}
+
+main .listagem_pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao_pokemon {
+    background-color: #eb9ede;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao_pokemon:hover {
+    background-color: #95c6f3;
+}
+
+.modoEscuro .cartao_pokemon {
+    background-color: #a455f3;
+}
+
+main .cartao_pokemon .info {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+main .cartao_pokemon .info span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao_pokemon .gif {
+    width: 90px;
+    height: 90px;
+}
+
+main .cartao_pokemon .tipos {
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao_pokemon .tipo_grama,
+main .cartao_pokemon .tipo_veneno,
+main .cartao_pokemon .tipo_fogo,
+main .cartao_pokemon .tipo_agua,
+main .cartao_pokemon .tipo_inseto {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.tipo_grama {
+    background-color: #7ac74c;
+}
+
+.tipo_veneno {
+    background-color: #df67ddfb;
+}
+
+.tipo_fogo {
+    background-color: #ee8130;
+}
+
+.tipo_agua {
+    background-color: #6390f0;
+}
+
+.tipo_inseto {
+    background-color: #a6b91a;
+}
+
+main .desc {
+    max-height: 100px;
+    overflow: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+}
