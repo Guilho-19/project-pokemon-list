@@ -4,7 +4,7 @@
 
 > O projeto tem como principal funcionalidade demonstrar o domínio sobre funcionalidades de HTML, CSS e JavaScript para listar de maneira sucinta Pokémons.  
 
-O projeto ainda está Finalizado.
+O projeto já está Finalizado.
 
 ## 💻 Pré-requisitos
 
